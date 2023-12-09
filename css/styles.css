@@ -1,0 +1,26 @@
+.navbar a:hover,
+.hero .container h1:hover {
+  text-shadow: 0 0 30px #ffcc00;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-custom {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background: url(../img/background.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.hero-text {
+  font-size: 64px;
+}

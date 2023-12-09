@@ -1,0 +1,17 @@
+{
+  "name": "crownrealestatesite-bootstrap",
+  "version": "1.0.0",
+  "description": "Crown Real Estate Website using Bootstrap 5",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "Adnan Rahmanpoor",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "bootstrap": "^5.3.1",
+    "sass": "^1.66.1"
+  }
+}
